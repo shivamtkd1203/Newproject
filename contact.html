@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+
+<body>
+    <nav>
+        <h4 style="margin-left: 10%;"><a href="#">Vlogs</a></h4>
+        <h3 style="margin-left: 0%;">travelwithshivam@org.in</h3>
+        <h4 style="margin-right: 10%;"><a href="/public/index.html">Home</a></h4>
+    </nav>
+   
+    <div class="registration-container">
+        <h2>Register</h2>
+        <form class="registration-form">
+            <div class="form-group">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Full Address</label>
+                <input type="Text" id="Add" name="Add" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Phone Number</label>
+                <input type="number" id="number" name="number" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <select name="chdesti" id="chdesti" style="padding: 5px 35px;">
+                    <option value="ch1">Select</option>
+                    <option value="ch2">Kedarnath</option>
+                    <option value="ch3">Badrinath</option>
+                    <option value="ch4">Gangotri</option>
+                    <option value="ch5">Yumnotri</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button"><a href="/public/thanks.html">Register</a></button>
+        </form>
+    </div>
+</body>
+</html>
